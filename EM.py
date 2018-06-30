@@ -11,7 +11,7 @@ b = np.random.randint(J,size=T)
 f = np.random.randint(J,size=T)
 
 #theta
-alpha = np.random.random(size=(T,K))
+alpha = np.random.random(size=(J,K))
 mu = np.random.random(size=(J,K))*255
 psi = np.random.random(size=(J,K))*30
 pi = np.random.random(size=J); pi = pi / sum()
